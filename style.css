@@ -9,6 +9,8 @@ body {
 #main-doc{
     margin-left: 50px;
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #navbar{
@@ -31,7 +33,7 @@ body {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   body{
     padding: 0;
     margin: 30px;
@@ -41,9 +43,16 @@ body {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
    
   }
+
+  
+#main-doc{
+  margin-left: 1px;
+
+  
+  
 }
 
 
